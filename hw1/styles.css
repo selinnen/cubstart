@@ -414,9 +414,7 @@ main {
 
   .nav__hamburger {
     display: flex;
-    /* margin-left: 0.8em; */
-    margin-left: 20em;
-    width: 1em;
+    margin-left: 5em;
   }
 
   .about {
@@ -428,8 +426,8 @@ main {
     padding: 2em;
     margin-top: 3em;
   }
-
-  .scroll-container {
-    display: none;
+  
+  .footer:focus {
+    transition: pink 2s ease-out
   }
 }

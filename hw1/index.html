@@ -19,7 +19,7 @@
   <header class="header center">
     <!-- BEGIN PART 2 -->
     <h3>
-      <a href="/">SW</a>
+      <a href="./">SW</a>
     </h3>
     <!-- END PART 2 -->
     <nav class="nav center">
@@ -43,7 +43,9 @@
 
       <!-- 
         5.1: What does this button tag correspond to on the site? 
-        This corresponds to the moon in the header. When toggled, it will change the theme to dark mode, and when toggled again, it will change to day mode again. 
+
+        This corresponds to the moon in the header. When toggled, it will change the theme to dark mode, 
+        and when toggled again, it will change to day mode again. 
       
       -->
 
@@ -57,6 +59,9 @@
         make it so that this button appears on screen? 
         Hint: remember what @media (max-width: 600px) means.
 
+        @media (max-width: 600px) means that it will only be displayed if the screen is within 600px in width, 
+        So in this case, the rule for display:none is the default, that the hamburger does not appear, but 
+        when the screen is minimized within 600px in width, it will show up the hamburger.
 
        -->
 
@@ -174,6 +179,48 @@
             <i aria-hidden="true" class="fas fa-external-link-alt"></i>
           </a>
         </div>
+
+        <div class="project">
+          <h3>Project 5</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Java</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Project 6</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Java</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
         <!-- END PART 8 -->
       </div>
     </section>
@@ -193,7 +240,7 @@
     </section>
     <section class="section contact center" id="contact">
       <h2 class="section__title">Contact</h2>
-      <a href="mailto:youremail@gmail.com">
+      <a href="mailto:selinawu0314@gmail.com">
         <span class="btn btn--outline">Email me</span>
       </a>
     </section>
@@ -201,9 +248,10 @@
 
   <footer class="footer">
     <!-- BEGIN PART 12 -->
-    <a href="/" class="link footer__link">
+    <a href="./" class="link footer__link">
       Created By Selina Wu in 2022
     </a>
+    <!-- <p class="about__desc center">I'm super bored, so if you are seeing this, please email me</h3> -->
     <!-- END PART 12 -->
   </footer>
 
